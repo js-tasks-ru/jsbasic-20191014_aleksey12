@@ -1,7 +1,5 @@
 'use strict';
 
-let a = '1234';
-
-debugger;
-
-console.log(a);
+function sum(a, b){
+	return a + b;
+}
