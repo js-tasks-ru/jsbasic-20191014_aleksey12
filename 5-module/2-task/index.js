@@ -59,7 +59,7 @@ function SortableTable(items) {
     * нужно выполнить сортировку (отсчет начинается от 0)
     * @param {boolean} desc - признак того, что сортировка должна идти в обратном порядке
     */
-  this.sort = function (column, desc = false) {
+  this.sort = (column, desc = false) => {
     tbody.innerHTML = '';
     const k = desc ? -1 : 1;
 
